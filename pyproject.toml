@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "apifetch"
-version = "0.1.0"
+version = "0.1.1"
 description = "A generic toolkit for token-authenticated REST API retrieval."
 readme = "README.md"
 requires-python = ">=3.9"
