@@ -9,7 +9,13 @@ description = "A generic toolkit for token-authenticated REST API retrieval."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
-authors = [{ name = "André Leite", email = "leite@de.ufpe.br" }]
+authors = [
+    { name = "André Leite", email = "leite@castlab.org" },
+    { name = "Hugo Vasconcelos", email = "hugo.vasconcelos@ufpe.br" },
+    { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
+    { name = "Marcos Wasilew", email = "marcos.wasilew@gmail.com" },
+    { name = "Carlos Amorin", email = "carlos.agaf@ufpe.br" },
+]
 keywords = ["api", "rest", "http", "token", "pagination", "client"]
 classifiers = [
     "Development Status :: 3 - Alpha",
