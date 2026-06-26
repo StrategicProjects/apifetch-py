@@ -4,6 +4,12 @@
 
 # apifetch (Python)
 
+[![PyPI version](https://img.shields.io/pypi/v/apifetch.svg)](https://pypi.org/project/apifetch/)
+[![Python versions](https://img.shields.io/pypi/pyversions/apifetch.svg)](https://pypi.org/project/apifetch/)
+[![CI](https://github.com/StrategicProjects/apifetch-py/actions/workflows/ci.yml/badge.svg)](https://github.com/StrategicProjects/apifetch-py/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![R sibling](https://www.r-pkg.org/badges/version/apifetch?label=R%20sibling)](https://CRAN.R-project.org/package=apifetch)
+
 `apifetch` is a small, dependency-light toolkit for talking to
 token-authenticated REST APIs. It handles three recurring chores:
 
