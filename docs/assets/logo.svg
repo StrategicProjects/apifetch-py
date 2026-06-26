@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="246.5" height="280" viewBox="-12 -12 197.2 224"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-label="apifetch for Python">
+  <title>apifetch (Python)</title>
+  <defs>
+    <style type="text/css">
+      text { font-family: 'Jost', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+    <linearGradient id="hexpy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22357d"/>
+      <stop offset="1" stop-color="#1a2a65"/>
+    </linearGradient>
+  </defs>
+
+  <!-- hexagon: Python-yellow border to mark the Python sibling -->
+  <path d="M100,0 L186.6,50 L186.6,150 L100,200 L13.4,150 L13.4,50 Z"
+        fill="url(#hexpy)" stroke="#ffd43b" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- fetch arrow (download = retrieve) in Python blue -->
+  <path d="M88,42 L112,42 L112,88 L130,88 L100,124 L70,88 L88,88 Z"
+        fill="#4b8bbe" stroke="#1a2a65" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- wordmark -->
+  <text x="100" y="150" text-anchor="middle" font-weight="bold"
+        fill="#ececec" font-size="30" dominant-baseline="central">apifetch</text>
+
+  <!-- "py" badge -->
+  <text x="100" y="176" text-anchor="middle" font-weight="bold"
+        fill="#ffd43b" font-size="15" letter-spacing="3"
+        dominant-baseline="central">PYTHON</text>
+</svg>

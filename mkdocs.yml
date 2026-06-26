@@ -1,0 +1,45 @@
+site_name: apifetch (Python)
+site_description: A generic toolkit for token-authenticated REST API retrieval.
+site_url: https://strategicprojects.github.io/apifetch-py/
+repo_url: https://github.com/StrategicProjects/apifetch-py
+repo_name: StrategicProjects/apifetch-py
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+            docstring_style: google
+
+nav:
+  - Home: index.md
+  - "Use case — BigDataPE": bigdatape.md
+  - API reference: reference.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
