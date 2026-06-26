@@ -18,15 +18,16 @@
         fill="url(#hexpy)" stroke="#ffd43b" stroke-width="5" stroke-linejoin="round"/>
 
   <!-- fetch arrow (download = retrieve) in Python blue -->
-  <path d="M88,32 L112,32 L112,72 L130,72 L100,102 L70,72 L88,72 Z"
+  <path d="M90,22 L110,22 L110,62 L126,62 L100,90 L74,62 L90,62 Z"
         fill="#4b8bbe" stroke="#1a2a65" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <!-- wordmark -->
-  <text x="100" y="130" text-anchor="middle" font-weight="bold"
-        fill="#ececec" font-size="27" dominant-baseline="central">apifetch</text>
+  <!-- wordmark: textLength locks the width so font substitution can't overflow -->
+  <text x="100" y="112" text-anchor="middle" font-weight="bold"
+        fill="#ececec" font-size="28" textLength="130"
+        lengthAdjust="spacingAndGlyphs" dominant-baseline="central">apifetch</text>
 
-  <!-- "python" badge -->
-  <text x="100" y="156" text-anchor="middle" font-weight="bold"
-        fill="#ffd43b" font-size="15" letter-spacing="3"
-        dominant-baseline="central">PYTHON</text>
+  <!-- "python" badge, kept in the full-width band -->
+  <text x="100" y="136" text-anchor="middle" font-weight="bold"
+        fill="#ffd43b" font-size="14" textLength="92"
+        lengthAdjust="spacingAndGlyphs" dominant-baseline="central">PYTHON</text>
 </svg>
