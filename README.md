@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/logo.svg" width="200" alt="apifetch">
+  <img src="docs/assets/logo.png" width="200" alt="apifetch">
 </p>
 
 # apifetch (Python)
