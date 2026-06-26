@@ -11,3 +11,7 @@ venv/
 .ruff_cache/
 site/
 .DS_Store
+
+# Claude Code
+CLAUDE.md
+.claude/
