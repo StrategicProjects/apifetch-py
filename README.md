@@ -7,7 +7,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/apifetch.svg)](https://pypi.org/project/apifetch/)
 [![Python versions](https://img.shields.io/pypi/pyversions/apifetch.svg)](https://pypi.org/project/apifetch/)
 [![CI](https://github.com/StrategicProjects/apifetch-py/actions/workflows/ci.yml/badge.svg)](https://github.com/StrategicProjects/apifetch-py/actions/workflows/ci.yml)
-[![Downloads](https://static.pepy.tech/badge/apifetch)](https://pepy.tech/project/apifetch)
+[![Downloads](https://img.shields.io/pepy/dt/apifetch)](https://pepy.tech/project/apifetch)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![R sibling](https://www.r-pkg.org/badges/version/apifetch?label=R%20sibling)](https://CRAN.R-project.org/package=apifetch)
 
