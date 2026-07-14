@@ -5,6 +5,7 @@ title: "apifetch: a generic toolkit for token-authenticated REST API retrieval (
 version: 0.1.2
 date-released: 2026-07-14
 license: MIT
+doi: 10.5281/zenodo.21364969
 repository-code: "https://github.com/StrategicProjects/apifetch-py"
 url: "https://strategicprojects.github.io/apifetch-py/"
 keywords:
@@ -28,7 +29,7 @@ authors:
     given-names: Diogo
     email: diogo.bezerra@ufpe.br
     affiliation: "Universidade Federal de Pernambuco"
-  - family-names: Wasilew
+  - family-names: Wasiliew
     given-names: Marcos
     email: marcos.wasilew@gmail.com
   - family-names: Amorim
