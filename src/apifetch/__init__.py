@@ -32,7 +32,7 @@ from .api import (
 from .fetch import ApiError, fetch, fetch_all
 from .tokens import get_token, list_tokens, remove_token, store_token
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = [
     "Api",

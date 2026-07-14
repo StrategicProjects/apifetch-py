@@ -1,0 +1,40 @@
+{
+  "title": "apifetch: a generic toolkit for token-authenticated REST API retrieval (Python)",
+  "description": "<p>apifetch is a small, dependency-light Python toolkit for talking to token-authenticated REST APIs. It handles token management in process environment variables (never written to disk), pluggable authentication and pagination strategies bundled into a reusable Api profile, and paged data retrieval. It is the Python sibling of the R package apifetch; both were extracted from the BigDataPE package.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Leite, André",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Vasconcelos, Hugo",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Bezerra, Diogo",
+      "affiliation": "Universidade Federal de Pernambuco"
+    },
+    {
+      "name": "Wasilew, Marcos"
+    },
+    {
+      "name": "Amorim, Carlos",
+      "affiliation": "Universidade Federal de Pernambuco"
+    }
+  ],
+  "keywords": ["api", "rest", "http", "token", "pagination", "client", "python"],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://pypi.org/project/apifetch/",
+      "resource_type": "software"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://github.com/StrategicProjects/BigDataPE",
+      "resource_type": "software"
+    }
+  ]
+}
